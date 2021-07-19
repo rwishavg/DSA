@@ -40,9 +40,13 @@ void solve(){
   cin>>k;
   set<int>s(arr,arr+n);
   set<int>::iterator it = s.begin();
+  set<int>::iterator it2 = s.begin();
   advance(it,k-1);
-  cout<<"The kth value is :";
+  advance(it2,n-k);
+  cout<<"The kth smallest value is :";
   cout<<*it<<endl;
+  cout<<"The kth largest value is :";
+  cout<<*it2<<endl;
 }
 
 //Using Map
@@ -56,6 +60,15 @@ int k_smallest(map<int,int>m, int k){
   }
 }
 
+int k_largest(map<int,int>m, int k,int n){
+  int freq=0;
+  for(map<int,int>::iterator it=m.begin();it!=m.end();it++){
+    if(freq==n-k-1){
+      return it->first;
+    }
+    freq+=it->second;
+  }
+}
 
 void solve2(){
   int n;
@@ -74,14 +87,17 @@ void solve2(){
     m[arr[i]]++;
   }
   int ans = k_smallest(m,k);
-  cout<<"The kth value is :";
+  int ans2 = k_largest(m,k-1,n);
+  cout<<"The kth smallest value is :";
   cout<<ans<<endl;
+  cout<<"The kth largest value is :";
+  cout<<ans2<<endl;
 }
 
 int main() {
    // IOS;
     testcase{
-      solve2();
+      solve(); //implememtation of kth smallest/largest element using maps
     }
     return 0;
 }
