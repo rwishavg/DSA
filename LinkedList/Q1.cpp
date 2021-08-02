@@ -50,6 +50,25 @@ void push_end(int d){
   }
 }
 
+node* reverse(node* head)
+{
+  node* prev = NULL;
+  node* curr = head;
+  while(curr!=NULL){
+    node* temp = curr->next;
+    curr->next = prev;
+    prev = curr;
+    curr = temp;
+  }
+  node* flag = prev;
+  while(flag){
+    cout<<" "<< flag->data;
+    flag=flag->next;
+  }
+  cout<<endl;
+  return prev;
+}
+
 void display(){
    node *flag = head;
     while(flag){
@@ -71,6 +90,9 @@ int main() {
   cin>>n;
   loop(i,n)
     solve();
+  cout<<"The original LL is :";
   display();
+  cout<<"The reversed LL is :";
+  reverse(head);
   return 0;
 }
