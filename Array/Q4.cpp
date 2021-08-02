@@ -65,6 +65,7 @@ void solve(){
     loop(i, n){
         cin >> a[i];
     }
+    
     int lo = 0;
     int hi = n - 1;
     int mid = 0;
