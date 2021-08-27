@@ -1,10 +1,6 @@
-//Question :
-//Write a program to reverse an array or string
+//Storing Frequency Using Map
 
-//Link :
-//  https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/
-
-//CODE
+#include<string>
 #include <bits/stdc++.h>
 typedef long long ll;
 typedef unsigned long long ull;
@@ -29,35 +25,23 @@ using namespace std;
 
 void solve()
 {
-  int n;
-  cin >> n;
-  int arr[n];
-
-  int x = 5;
-
-  loop(i, n)
-  {
-    cin >> arr[i];
-  }
-  //arr stores the original array
-  int arr2[n];
-  loop(i, n)
-  {
-    arr2[i] = arr[n - 1 - i];
-  }
-  //arr2 stores the reversed array
-  loop(i, n)
-          cout
-      << arr2[i] << " ";
-  cout << endl;
+  unordered_map <char, int> m;
+  vector<int> v;
+  loop(i, 10)
+      v.pb(i);
+  for(int i : v)
+    cout << i;
+  string s;
+  cin >> s;
+  loop(i, s.length())
+    ++m[s[i]];
+  for(auto i : m)
+    cout << i.first << " " << i.second << endl;
+  cout << "int max " << INT_MIN;
 }
 
 int main()
 {
-  IOS;
-  testcase
-  {
-    solve();
-  }
+  solve();
   return 0;
 }
