@@ -1,0 +1,7 @@
+alias g++='g++ -std=c++17'
+alias ll='ls -l'
+alias ls='ls -alh'
+alias mydocs='cd ~/Documents'
+alias node='winpty node.exe'
+alias o='./a.exe<in.txt>out.txt'
+alias sbrc='cd ~ && source .bashrc'
