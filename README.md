@@ -2,7 +2,7 @@
 
 <h2> Basic Topics:- </h2>
 <li>Time Complexity Analysis </li>
-<li>Strong base in any one language (c++)<ul>
+<li>Strong base in any one language (c++)<li>
 <li>Classes, Functions, Structures, Pointers, Inheritance, Threads<ul>
 
 <h2 style="color:darkgreen">STL Library</h2>
