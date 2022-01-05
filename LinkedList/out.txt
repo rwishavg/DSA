@@ -1,0 +1,2 @@
+Enter value:Enter value:Enter value:Enter value:Enter value:The original LL is : 11 22 32 44 55
+The reversed LL is : 55 44 32 22 11
