@@ -1,8 +1,11 @@
 <h1 style="color:darkblue"> ROAD-MAP</h1>
 
 <h2> Basic Topics:- </h2>
-<ul>Time Complexity Analysis </ul> 
-<ul style="color:darkgreen">STL Library</ul>
+<ul>Time Complexity Analysis </ul>
+<ul>Strong base in any one language (c++)<ul>
+<ul>Classes, Functions, Structures, Pointers, Inheritance, Threads<ul>
+
+<h2 style="color:darkgreen">STL Library</h2>
   <li>Vectors</li>
   <li>Sort</li>
   <li>Custom Sort Function</li>
@@ -109,5 +112,6 @@
  <li>OS</li>
  <li>Computer Networks</li>
  <li>Software Engineering</li>
+ <li>Object Oriented Programming</li>
  <li>Compiler Design</li>
  
