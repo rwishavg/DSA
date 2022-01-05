@@ -1,9 +1,9 @@
 <h1 style="color:darkblue"> ROAD-MAP</h1>
 
 <h2> Basic Topics:- </h2>
-<ul>Time Complexity Analysis </ul>
-<ul>Strong base in any one language (c++)<ul>
-<ul>Classes, Functions, Structures, Pointers, Inheritance, Threads<ul>
+<li>Time Complexity Analysis </li>
+<li>Strong base in any one language (c++)<ul>
+<li>Classes, Functions, Structures, Pointers, Inheritance, Threads<ul>
 
 <h2 style="color:darkgreen">STL Library</h2>
   <li>Vectors</li>
