@@ -1,15 +1,15 @@
-<h1 style="color:darkblue"> ROAD-MAP for Students</h1>
+<h1 style="color:darkblue"> ROAD-MAP</h1>
 
 <h2> Basic Topics:- </h2>
 <ul>Time Complexity Analysis </ul> 
-<h2 style="color:darkgreen">STL Library</h2>
-<li>Vectors</li>
-<li>Sort</li>
-<li>Custom Sort Function</li>
-<li>Sets</li>
-<li>Maps</li>
-<li>Priority Queue</li>
-<li>Lower bound and Upper Bound</li>
+<ul style="color:darkgreen">STL Library</ul>
+  <li>Vectors</li>
+  <li>Sort</li>
+  <li>Custom Sort Function</li>
+  <li>Sets</li>
+  <li>Maps</li>
+  <li>Priority Queue</li>
+  <li>Lower bound and Upper Bound</li>
       	 
 <h2  style="color:darkgreen">Basic Algorithms:-</h2>
 <li>Binary Exponentiation</li>
